@@ -12,7 +12,7 @@ def test_greedy_cow_transport():
     print(purple("Testing: greedy_cow_transport"))
     print(purple("-----------------------------------------------------------"))
 
-    cows = load_cows("/Users/chriswolf/Documents/My_Code/Coursework/MIT600_2X/master/Unit_1/pset1/ps1_cow_data.txt")
+    cows = load_cows("ps1_cow_data.txt")
 
     """
     Test greedy_cow_transport(cows)
