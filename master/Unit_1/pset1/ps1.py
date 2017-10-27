@@ -168,6 +168,6 @@ lines to print the result of your problem.
 """
 
 if __name__ == "__main__":
-    cows = load_cows("ps1_cow_data.txt")
+    cows = load_cows("/Users/chriswolf/Documents/My_Code/Coursework/MIT600_2X/master/Unit_1/pset1/ps1_cow_data.txt")
     limit = 10
     compare_cow_transport_algorithms()
