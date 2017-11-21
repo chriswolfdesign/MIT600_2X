@@ -144,7 +144,6 @@ class RectangularRoom(object):
         pos: a Position object.
         returns: True if pos is in the room, False otherwise.
         """
-        # TODO: Debug
         return (pos.x >= 0 and pos.x < self.width) and \
                (pos.y >= 0 and pos.y < self.height)
 
